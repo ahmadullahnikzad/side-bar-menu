@@ -1,0 +1,135 @@
+.home {
+    background-color: dodgerblue;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 0;
+    top: 150;
+    transition: width .5s ease-in-out;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.home:hover span {
+    display: inline;
+    margin-left: 30px;
+}
+
+.book {
+    background-color: dodgerblue;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 0;
+    top: 210;
+    transition: width .5s ease-in-out;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.book:hover span {
+    display: inline;
+    margin-left: 30px;
+}
+
+.settings {
+    background-color: dodgerblue;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 0;
+    top: 270;
+    transition: width .5s ease-in-out;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.settings:hover span {
+    display: inline;
+    margin-left: 30px;
+}
+
+.contact {
+    background-color: dodgerblue;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 0;
+    top: 330;
+    transition: width .5s ease-in-out;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.contact:hover span {
+    display: inline;
+    margin-left: 30px;
+}
+
+.share {
+    background-color: dodgerblue;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 0;
+    top: 510;
+    transition: width .5s ease-in-out;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.share:hover span {
+    display: inline;
+    margin-left: 30px;
+}
+
+.video {
+    background-color: dodgerblue;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 0;
+    top: 390;
+    transition: width .5s ease-in-out;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.video:hover span {
+    display: inline;
+    margin-left: 30px;
+}
+
+.apps {
+    background-color: dodgerblue;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 0;
+    top: 450;
+    transition: width .5s ease-in-out;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.apps:hover span {
+    display: inline;
+    margin-left: 30px;
+}
+
+span {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+div:hover {
+    width: 150px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: black;
+    cursor: pointer;
+}
